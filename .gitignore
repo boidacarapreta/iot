@@ -1,3 +1,6 @@
+# Influxdb
+influxdb/
+
 # Logs
 logs
 *.log
