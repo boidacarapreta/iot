@@ -6,3 +6,4 @@ tasks:
 vscode:
   extensions:
     - esbenp.prettier-vscode@2.3.0:1F0Pvb/ORZ/T+b60LIMs8w==
+    - humao.rest-client@0.23.0:JNawNa9Juht3Bl5xY2refg==
