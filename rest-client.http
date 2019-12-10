@@ -1,4 +1,4 @@
-@baseUrl = https://che.sj.ifsc.edu.br
+@baseUrl = http://localhost:8086
 @db = iot
 
 ###
