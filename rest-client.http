@@ -3,20 +3,27 @@
 
 ###
 
-GET {{baseUrl}}/ping HTTP/1.1
+GET {{baseUrl}}/ping
 
 ###
 
-POST {{baseUrl}}/query HTTP/1.1
+POST {{baseUrl}}/query
 Content-Type: application/x-www-form-urlencoded
 
 q=CREATE DATABASE iot
 
 ###
 
-POST {{baseUrl}}/query?db={{db}} HTTP/1.1
+POST {{baseUrl}}/query?db={{db}}
 Content-Type: application/x-www-form-urlencoded
 
-q=SELECT * from iot
+q=SELECT * from saude
+
+###
+
+POST {{baseUrl}}/write?db={{db}}
+Content-Type: application/octet-stream
+
+saude,nome=ederson,lat=-27,long=-48 batimentos=72i
 
 ###
