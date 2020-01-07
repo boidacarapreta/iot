@@ -6,13 +6,14 @@ github:
     pullRequestsFromForks: false
     addComment: true
     addBadge: false
-    addLabel: prebuilt-in-gitpod    
+    addLabel: prebuilt-in-gitpod
 image: influxdb:latest
 ports:
   - port: 8086
 tasks:
-- command: influxd -config /workspace/iot/influxd.conf
+  - command: influxd -config /workspace/iot/influxd.conf
 vscode:
   extensions:
     - esbenp.prettier-vscode@2.3.0:1F0Pvb/ORZ/T+b60LIMs8w==
     - humao.rest-client@0.23.0:JNawNa9Juht3Bl5xY2refg==
+    - eamodio.gitlens@10.2.0:GNDO73Cmp0fYDiLNxVkbsQ==

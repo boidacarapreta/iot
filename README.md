@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/boidacarapreta/iot) 
+
 # Um experimento com IoT para aprendizado pessoal
 
 Será usado o projeto [KDIDCCA](https://github.com/kididcca) como ponto de partida. Porém, nesse novo cenário serão coletados dados de dispositivos móveis e vestíveis, como por exemplo _smartwatch_ com Wear OS:
